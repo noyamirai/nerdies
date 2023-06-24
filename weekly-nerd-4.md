@@ -1,71 +1,29 @@
-# Adapting to Reality - Aaron Gustafson (Seattle, Washington DC)
+# Adapting to Reality: Embracing User Diversity in Web Design
 
-In the beginning -> 640 x 480 screen dimensions
-So they built fixed websites for those screens -> not ideal!
+During the fourth weekly nerd episode a captivating talk titled "Adapting to Reality," Aaron Gustafson, all the way from Seattle and Washington DC, shared his valuable insights on the evolution of web design and the importance of adapting to the diverse needs of users.
 
-As time progressed we got 800 x 600, but they still made de websites fixed width -> stinky
+## The Evolution of Screen Sizes
 
-1024 x 768 (false sense of security)
+Aaron took us on a journey back to the early days of web design, when screen dimensions were limited to 640 x 480 pixels. At the time, fixed-width websites were created to fit these screens, but this approach proved to be less than ideal. As screen sizes progressed to 800 x 600 and eventually 1024 x 768 pixels, the misconception of fixed-width designs persisted, leading to a false sense of security.
 
-Laptop sizes were all over the place and expensive! But they were ignoring mobiles
+## The Rise of Mobile Devices
 
-240x240 640x200 (mobile dimensions)
+The introduction of smartphones disrupted the web design landscape. Suddenly, there was an overwhelming variety of screen sizes, dimensions, and orientations to consider. This marked a turning point, prompting the development of media queries to adapt websites to different screen sizes. Despite this progress, Aaron emphasized that chasing screen sizes is a futile endeavor.
 
-Until smartphones came along. So many different screen sizes, dimeensions and orientations -> Overwhelming! So we got media queries
+## Beyond Desktops: Exploring Diverse User Interactions
 
-Desktops today are much bigger! 1920x1080 etc etc
+Aaron emphasized the importance of considering the multitude of ways users interact with websites. From eye tracking and touch input to mouse, remote control, pen, and even braille, users have varying needs and preferences. Additionally, he highlighted the importance of designing for different network conditions, such as Wi-Fi, mobile, and various physical locations like homes, buildings, cars, buses, trains, and airplanes.
 
-"Chasing screen sizes is clearly a fool's errand"
+## User Diversity and Empathy
 
-Your content can and will go anywhere that's connected:
-- Wearables
-- Smart TVs
-- IoT
-- Assistants
+Web designers must recognize that users have different needs and abilities. Aaron emphasized that disabilities can be permanent or situational, underscoring the need for an empathetic and inclusive design approach. He urged us to approach their work with an open mind, acknowledging the limitations of designing for oneself and embracing the potential for users to make the web their own.
 
-We need to think about all the different ways people will interact with our sites. Meaning useres will need to be able to interact in different ways:
-- eye tracking
-- t9
-- touch
-- mouse
-- remote
-- pen
-- braille
-- print
-- keyboard
-- audio
-- gamepad
+## Adapting Step by Step
 
-Over varied networks and changing conditions (different contexts)
-- wifi
-- hardline
-- mobile
-- homes
-- buildings
-- cars
-- buses
-- trains
-- airplanes
+Aaron outlined a step-by-step approach to adapting to reality in web design:
 
-And ultimately our users all have different needs too. A whole lot to consider, and this doesn't even include browsers!
-
-Nothing about our users' experience of the web has ever been as homogenous as we imagined. (reality check)
-
-Treat your ideal scenario as an edge case! Barely anyone is gonna have the perfect experience. We design for us, which is our flaw. We're limiting what users can experience and what they can make their own.
-
-not all smartphones are equal! different devices have different specs. A different experience!
-
-disabilities dont always have to be permanent, its also situational!
-
-approach your job with an open mind and empathy for ur users
-we try stuff make mistakes and learn from them
-
-Step by step adapting to reality
-
-1. Focus on what matters, the essential 'nugget' such as a heading
-2. Write it out, then read it back. The words we use matter.
-3. Look for semantics that support 1 & 2
-Consider how your design choices impact the reading experience
-Think about the many different ways folks might interact
-Map the potential experiences (flowcharts)
-Iterate
+1. Focus on what matters: Identify the essential "nugget" of content, such as a heading, and prioritize its accessibility and usability.
+2. Craft your content: Pay careful attention to the words used, as language plays a significant role in shaping the user experience.
+3. Employ semantic markup: Utilize markup elements that support the identified essential content and improve overall accessibility.
+4. Consider design choices: Reflect on how design decisions impact the reading experience and ensure an inclusive design that accommodates diverse user interactions.
+5. Map potential experiences: Create flowcharts to visualize the various ways users may interact with the website, enabling iterative design improvements.

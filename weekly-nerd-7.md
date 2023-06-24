@@ -1,78 +1,28 @@
-# Servin | Level30Wizards | 3D &  Three.js
+# 3D & Three.js: Insights into WebGL and 3D Development
 
-MBO > HBO > own company
-Lead 3D development
-Freelancer'er
-Full-stack developer
+Servin, a full-stack developer and lead of 3D development at Level30Wizards, shared valuable insights on 3D development and the utilization of Three.js during the seventh weekly nerd episode.
 
-Level30Wizards creative digital studio - > tech projecten en geen design (team te klein)
+## WebGL and Graphics Intensive Rendering
 
-## 3d
+Servin highlighted the usage of the HTML canvas element and the JavaScript-based APIs for drawing and animating graphics on the web. WebGL, an API built on OpenGL, enables the creation of graphically intensive renders on the canvas by directly communicating with the GPU. It provides the capability to create 2D and 3D graphics using shaders.
 
-With the HTML canvas element you can use Javascript to draw and animate in the web. This by using the canvas scripting API or webGL Api
+### Shaders
 
-WebGL is a js api with which you can create a graphicly intensive renders/drawings on the canvas element. This because the api is able to somewhat directly communicate with your gpu
+To work with WebGL, developers need to write shaders, which are a specialized mathematical language. There are two types of shaders: vertex shaders for defining shapes and fragment shaders for coloring the shapes. Servin mentioned the PixiJS library as a useful tool for 2D WebGL development, which closely resembles the native canvas API. Additionally, Three.js was highlighted as one of the leading 3D WebGL frameworks, simplifying the creation of WebGL-based projects.
 
-WebGL is een api van het web, gemaakt op OpenGL maakt gebruik van shaders -> 2d of 3d dingen doen
+### Optimization and Accessibility
 
-openGL is een low level api
+Servin discussed the importance of optimizing 3D graphics due to their potentially heavy performance impact. Techniques such as asset compression were mentioned to improve loading times. Furthermore, accessibility considerations were emphasized, ensuring that 3D experiences are accessible to users with screen readers, keyboard navigation, and other assistive technologies. By combining HTML with the canvas element, developers can create an accessible experience for all users.
 
-Shaders
-Stel je wilt iets maken met webGL, dan moet je (helaas) shaders schrijven. Shaders is zijn eigen taal (wiskundig). Twee soorten: Vertex en fragment shaders
+## Working with Three.js
+Servin explained the fundamental components of Three.js. The axis/vector3 system in 3D development consists of X, Y, and Z axes. The scene serves as the container for rendering objects, acting as a parallel to the body tag in traditional web development. Different rendering perspectives, such as perspective and orthographic, were discussed. Lighting was also highlighted as a crucial aspect, with various types and sources of light available in 3D environments. Meshes, combining geometry and materials, represent objects in the scene, enabling the creation of complex 3D objects.
 
-vertex -> shapes definieeren
-fragment -> inkleuren van de shapes
+The renderer in Three.js takes the scene and camera as input and produces an image that is rendered on the canvas element. For smooth animations, the request animation frame method is utilized, ensuring a render is performed for each frame.
 
-PixiJS webgl library om 2d webgl mee te schrijven. een goede library om 2d dingen te doen. de api lijkt heel erg op de native canvas api
+## Future of Web Graphics
 
-Three.js is one of the largest 3D webGL frameworks build on WebGL (dus makkelijk webgl dingen doen).
+Servin mentioned WebGPU as the successor to WebGL, providing a completely new API with modern computer graphics capabilities. WebGPU exposes technologies like Direct3D 12, Metal, and Vulkan for rendering and computation operations on the GPU. Although WebGPU is currently experimental and supported only on specific versions of Chrome (113-115), it represents the future of web graphics. Servin also mentioned WebXR, which focuses on creating websites for virtual reality (VR) and augmented reality (AR), but cautioned that support for WebXR is still limited.
 
-maxbox.io
-kodeclubs.com
-bruno-simon
+## Resources
 
-Eurovision village
-How to optimize 3d - 3d very heavy
-Compressen van assets
-
-Moet ook werken voor mensen met screenreader, mensen die keyboard gebruiken etc
-
-Canvas eigenlijk gewoon een afbeelding dat re-rendered
-
-HTML erachter gooien en het aan elkaar koppelen om zo accessible te maken
-
-How does it work?
-
-Axis/Vector3
-
-in 3d heb je een 3de axis -> X, Y en Z!
-
-Scene -> container waarin alles wordt geregenderd -> soort van body tag maar dan voor 3d
-alles in scene wordt gerendered
-
-verschillende manieren om iets te laten zien. Altijd vanuit oog van de camera: perspective en orographic
-
-Lighting -> binnen 3d als je je lichtbron vergeet zie je alleen maar zwart. (er zijn verschillende soorten en typen lichtbronnen die je kunt gebruiken)
-
-Meshes -> basically geef je hiermee een object echt in de wereld. T heeft een geometry (box bijv) en dan een material. als jje deze twee combineerd met een mesh dan heb je een box in een scene
-
-Renderer pakt je scene en je camera -> maakt een afbeelding en zet dit in je canvas element
-
-Met motion -> request animation frame met elke mogelijke frame een render maken.
-
-## Future*
-
-WebGPU opvolger van webGl voledig nieuwe api.
-
-Webgpu is a new web api that exposes modern computer graphcis capabilities. specifically direct3d 12, metal, and vulkan, for performing rendering and computation operations on a GPU
-
-WebGPU barely supported / very experimental (only on chrome 113 - 115)
-
-WebXR -> websites for vr and ar maken (barely supported)
-
-Resources:
-
-ThreeJS-Journey (beginner)
-Simon Dev (advanced)
-The book of shaders (huilen fragment shaders)
-Three.js heeft tering veel examples open source
+Servin shared several valuable resources for further exploration, including the ThreeJS-Journey for beginners, Simon Dev for advanced topics, and "The Book of Shaders" for in-depth understanding of fragment shaders. Servin also mentioned the abundance of open-source examples available within the Three.js community.

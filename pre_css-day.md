@@ -1,66 +1,24 @@
-# PRE-CSS Day
+# PRE-CSS Day: Bringing Back the Spirit of the Old Web and Keeping CSS Weird
 
-yippie
+The PRE-CSS Day, introduced by Vasilis in English, was an exciting event held the day before CSS Day.
 
-Vasilis introduces the pre-css day in english! very cool! Day before CSS day
 
-## Sophie Koonin | Building a website like it's 1999
+## Building a website like it's 1999
 
-Web engineering lead at Monzo Bank in London
-localghost.dev
-sophie.omg.lol
+Sophie Koonin, the Web Engineering Lead at Monzo Bank in London, took the audience on a journey to the past when the web was weirder and had no rules. Sophie's mission is to bring back the spirit of the old web and break free from the uniformity of modern minimalistic design. She reminisced about the days when people built free static sites just for fun, without the influence of social media. 
 
-The web used to be weirder. mission to bring back the spirit of the old web
-there werent any rules
+Sophie encouraged the audience to embrace experimentation and use modern and accessible methods to create weird and unique websites. She showcased examples of animated GIFs, writing HTML in capitals, and demonstrated techniques like getting text via data attributes in CSS. Sophie reminded developers to respect users' preferences by not autoplaying GIFs when specific settings, such as reducing motion, are enabled.
 
-pre-social media, no rules, free static sites that people just built for funsies
-
-nowadays everything looks the same --> too much into the 'minimalistic' direction
-
-geocities
-
-lets bring back the weird! experimental side of the web using the modern and accessible methods we have today
-
-lots of animated gifs
-
-wrote HTML in capitals
-
-```hmtl
-<IMG SRC="link">
-```
-
-dont autoplay gifs when users have specific settings on (reduce motion etc) u can add or respect this media query with picture/source elements in HTML
-
-animated text effects don't belong in body text
-
-[creating classic word heading art in css lol]
-
-get text via data attribute in css
+A cool little trick she showed us to get the text via a data attribute in CSS:
 ```css
 content: attr(data-content);
 ```
 
-DHTML Cursor trail
+## Keep CSS Weird 
 
-weirdwebsitelovers.neocities.org
+Adam Argyle shared insights into color manipulation and the importance of keeping CSS weird. He discussed the differences between HSL (Hue, Saturation, Lightness) and LCH (Lightness, Chroma, Hue) color models. Adam highlighted that the perceptual lightness in LCH is consistent to human eyes, while HSL can be deceiving. He showcased the usage of the "okLCH" function, which allows developers to define colors more accurately using perceptual lightness and other parameters. By embracing the weirdness of CSS and exploring alternative color models, developers can create visually interesting and unique designs.
 
-Go forth and build something weird!
-
-## Adam Argyle (dude die robert leuk vind)  | Keep CSS Weird 
-
-HSL, LCH
-
-Lightness vs Luminance
-
-hsl lightness is 50% but the perceptual lightness is wildly different
-
-lch perceptual lightness is conssiten to human eyes. less vibrant but constant
-
-hsl lying to us!! not actually 50% lightness
-
-okLCH demo
-
-```
-oklch(99%, .05, 320);
-// lightness, chroma?, hue
+```css
+background-color: oklch(99%, .05, 320);
+// lightness, chroma, hue
 ```

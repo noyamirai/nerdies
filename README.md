@@ -1,4 +1,4 @@
-# Weekly Nerd [@cmda-minor-web](https://github.com/cmda-minor-web) 2022 - 2023
+# Den of the Nerds
 
 During the minor several weekly nerds were hosted to provide us with insights and knowledge regarding web development and design (weekly nerd talks!). In this repository you will find my documentation of all the weekly nerds I attended.
 

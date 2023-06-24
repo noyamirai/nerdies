@@ -1,38 +1,35 @@
-# A creative developer's guide to creating accessible, award winning websites - Weekly Nerd 3
+# Creating Accessible and Award-Winning Websites
 
-Cyd Stumpel - Freelance Creative developer
+During the third weekly nerd episode Cyd Stumpel, a freelance creative developer, shared valuable insights into the world of web development and accessibility
 
-2014 begonnen met CMD
-2017 begonnen met de minor web design development
-Stage gelopen bij matisse?
+## Cyd's Background and Journey
 
-Wereldvrede project -> popup shop in de pijp -> wereldvrede in een doostje -> hierdoor geinteresseerd in animation
-matisse failiet -> freelancer geworden
+Cyd began her journey in CMD (Communication and Multimedia Design) in 2014. Her interest in animation grew during a world peace project, which involved setting up a popup shop called "World Peace in a Box" in De Pijp. After the studio she worked for went bankrupt, Cyd ventured into freelancing. In 2021, she was invited to be a jury member for Awwwards, a prestigious award program for web design and development.
 
-2021 gevraagd voor Awwwards Jury
+## The Accessibility Gap in Award-Winning Websites
 
-Why are so many award winning websites inaccessible?
-- Veel developers weten niet van accessibility af -> ze zijn selftaught
+Cyd addressed the prevalent issue of award-winning websites lacking accessibility. She attributed this to many developers not being knowledgeable about accessibility, particularly those who are self-taught. Additionally, Cyd noted that even jury members sometimes struggle with evaluating accessibility when judging websites for awards.
 
-Are jury members bad at juryinng accesibility -> yes!
+## Common Mistakes in Creative Websites
 
-Common mistakes in (creative) websites
-- Removing ability to select text
-- Removing focus styles with no replacement
-- Removing native scrolling functionality
-- Omitting alternative text in buttons/images/etc
-- Not adding a test alternative to letter animations
-- Not respecting prefers-reduced-motion or other preferences
+Cyd highlighted some common mistakes found in creative websites that hinder accessibility:
 
-The curse of bad defaults
+- Removing the ability to select text, which limits the functionality for users who rely on text selection.
+- Removing focus styles without providing suitable replacements, making it difficult for keyboard and assistive technology users to navigate.
+- Disabling native scrolling functionality, often using custom virtual scrolling libraries instead, which can cause issues for users with specific browsing preferences or assistive technologies.
+- Omitting alternative text for buttons, images, and other elements, preventing screen readers from conveying the necessary information.
+- Neglecting to provide a text alternative for letter animations, which excludes users who cannot access the visual animation experience.
+- Failing to consider user preferences, such as respecting the prefers-reduced-motion setting or other user-configurable options.
 
-lenis scroll library !
+## Addressing the Curse of Bad Defaults
 
-Tips
-- Rethink your defaults, your resets, go-to code snippets
-- Add text alternatives to letter/word/line animations
-- Consider native functionality in virtual scrolling libraries
-- Respect user settnigs with animations
+Cyd emphasized the need to reassess default settings, reset styles, and go-to code snippets to ensure better accessibility. By rethinking these defaults, developers can proactively create a solid foundation for accessible websites. She also encouraged adding text alternatives for letter, word, and line animations to ensure inclusivity.
 
-aria-hidden -> not read by screenreader
-gsap animation library -> demo on how to animate text
+## Practical Tips for Improving Accessibility
+
+Cyd provided several practical tips to enhance accessibility in web development:
+
+1. Incorporate native functionality when using virtual scrolling libraries, considering the preferences and needs of users.
+2. Respect user settings, including animations, by using appropriate APIs like prefers-reduced-motion or other user-preference detection methods.
+3. Utilize ARIA attributes, such as aria-hidden, to control whether an element should be read by screen readers.
+4. Explore animation libraries like GSAP to create engaging and accessible animated experiences, demonstrating how to animate text effectively

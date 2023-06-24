@@ -1,95 +1,32 @@
-# Triple  | Frontend setup in productie | Chanel 
+# Frontend Setup in Production
 
-Chanel is frontend developer bij Triple
-houdt van games en bordspelletjes, sporten en series kijken
+During the ninth weekly nerd episode, Chanel, a frontend developer at Triple, shared insights into the frontend setup in production at Triple.
 
-afgestudeerd in cmd 2018 en werkt nu bij Triple
+## Background and Triple Clients
+Chanel, a CMD graduate in 2018, expressed her love for games, board games, sports, and watching series. She works at Triple and mentioned some of the clients they collaborate with, including Ajax, Max Verstappen, Citizen M, NLZIET, Heineken, and more.
 
-triple okesoftware codeazure merge!!
-
-klanten: ajax, max verstappen, citizen m, nlziet, heineken en meer!
-
-## Webstandaarden bij Triple
-
-Hoe ziet een gemiddelde frontend setup eruit bij Triple?
+## Web Standards at Triple
+Chanel emphasized the significance of adhering to web standards at Triple. She highlighted three key aspects of their frontend setup: Git, NPM, and code quality tools.
 
 ### Git
 
-Git, gebruik je version control! Handig voor:
-1. Rollback is belangrijk, je kunt altijd terug naar een oude versie in geval van nood.
-2. Debugging
-3. Samenwerken aan een groot en lang project
-
-#### Werkwijze 
-
-1. create branch vanaf main (feature branch)
-2. commit & push zodra je klaar bent met feature 
-3. create pull request: assign 1 of 2 andere devs voor feedback
-4. code naar main. approval gehad dan mergen met main
-5. deployment
+Chanel stressed the importance of using version control, such as Git, for several reasons. Git enables rollbacks to previous versions in case of emergencies, aids in debugging, and facilitates collaboration on large and long-term projects. She outlined the workflow they follow, which involves creating a feature branch from the main branch, committing and pushing changes, creating pull requests for feedback from other developers, merging the approved code into the main branch, and deployment.
 
 ### NPM
-text about npm
 
-but security risks!
+Chanel briefly mentioned NPM (Node Package Manager) and its usage in their frontend setup. However, she also highlighted the potential security risks associated with using packages from NPM. She suggested considering factors such as package maintenance, age, weekly downloads, number of contributors, package size, and preferred avoidance of package dependencies. She also emphasized the importance of checking licenses for the packages used.
 
-- goed onderhouden/leeftijd van package
-- downloads per week
-- aantal contributors
-- package size
-- liefst zonder package dependancies
-- licenses van een package checken
+### Setup and Frameworks
 
-### Setup
+Chanel discussed the choice between using Vanilla JavaScript, libraries, or frameworks. While Vanilla JavaScript allows for reusability, Triple often opts for frameworks or libraries to develop faster and more scalable web applications. React and Next.js are the go-to choices at Triple, although Chanel acknowledged that React may have limitations in terms of SEO (DOM creation). She mentioned their recent shift to Svelte, which is lighter, requires less code than React, easier to learn, and closer to JavaScript. The decision to switch to Svelte was motivated by the need to support TV smart applications, where React poses challenges.
 
-Vanilla, library of framework? vanilla veel hergebruiken lol
-meestal altijd een framework of library
+### Error Catching and Code Quality Tools
 
-hoe kunnen we sneller schaalbare web applicaties maken? -> overgestapt naar React/Next.js
+To identify issues in their code early on, Chanel highlighted the use of Typescript. It helps catch problems before they occur, ensuring code quality. They also utilize ESLint for maintaining a consistent codebase and Prettier for formatting code.
 
-react niet super nice voor SEO... (DOM creation)
+### CSS and Vite
+For CSS, Chanel recommended using SASS as it provides more robust error handling and improved maintainability. Additionally, she mentioned Vite, a build tool that enables fast project startup.
 
-sinds kort overgegaan naar Svelte want react breekt tv smart applicaties
+### Deployment Process
 
-Svelte is veel lichter dan react, minder code dan react, veel makkelijker op te pakken dan react, dichterbij js
-
-### Error catching
-
-vinden we problemen in onze code voordat ...
-
-Typescript! (slay)
-
-### ESLint
-
-consistent codebase thanks to ESLint config file
-
-### Prettier
-
-prettier code! :D
-
-### CSS
-minder foutgevoelig?
-
-SASS!
-
-### Vite
-
-snel opstarten van een project (slay)
-
-### Livegang
-
-React is static, nodeJS niet D: 
-
-Azure/Azure DevOps!
-
-Pipeline -> builden van code + validate if it works and next pipeline deploys
-
-dev/acc/prod omgeving
-
-dev: na pushen, development, testen
-acceptatie: voor de klant
-productie: productie
-
-#### Proces
-local > remote > main > dev > acc > prod
-
+Chanel addressed the deployment process, emphasizing the distinction between React (static) and Node.js. Azure and Azure DevOps were mentioned as the chosen deployment tools. Chanel described the deployment pipeline, which involves building and validating the code in each pipeline before progressing to the next stage. They follow a three-environment setup: development, acceptance (for client testing), and production.

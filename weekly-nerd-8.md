@@ -1,60 +1,30 @@
-# Brian | Immersive environments on the web
+# Immersive Environments on the Web: Connecting Audiences through Social VR
 
-## Vrije tijd
-vroeger lang gevoetbald
-hikings!!
-Houdt van lego, plantenliefhebber (bonsai), gamen
+Brian, a developer at Team Rockstars IT and recent graduate of CMD, discussed the concept of immersive environments on the web, focusing on Social VR and its applications in connecting museums and organizations with their audiences.
 
-werkzaam bij Team Rockstars IT sinds april
+## Background and Social VR
 
-## Social VR
-vorig jaar afgestudeerd aan CMD
+Brian shared his interest in hobbies such as football, hiking, Lego, plants (bonsai), and gaming. He highlighted the need for museums and organizations to connect with their audiences during the lockdown period. Brian mentioned the Secret Sky 2021 online festival, where users gathered virtually to listen to artists, as an example of the growing popularity of Social VR. He also discussed a collaboration with the Stedelijk Museum to create an immersive Social VR experience, allowing users to create their own characters, communicate via group calls, and express different emotions based on the artwork themes.
 
-veel musea en organisaties moesten dicht tijdens de lockdown -> hoe connecten met ons publiek/doelgroep?
+## Prototyping for the collab with Stedelijk Museum
 
-Secret Sky 2021 
-online festival -> veel gebruikers kwamen samen om naar artiesten te luisteren
+To prototype an immersive Social VR experience, Brian outlined several key considerations:
 
-kwamen steeds meer van dit soort projecten uit. Social VR steeds populairder
+- The digital product should align with the Stedelijk Museum's current collection.
+- The digital product should effectively communicate a message to the users.
+- It should be a multiplayer experience, encouraging user interaction.
+- Accessibility should be a priority to accommodate a large group of visitors.
 
-immersive social vr in samenwerking met stedelijk museum
+Brian explained the prototyping process, starting with sketching the floor plan on a whiteboard. As interfaces are not two-dimensional, physical prototypes made of cardboard (brown boxing) were used to bring the immersive experience to life quickly. Blender, a 3D modeling software, was then employed to create a digital version of the prototypes.
 
-mogelijk om eigen character te maken, communiceren via groepscall, characters hebben verschillende expressies per thema van de kunstwerken.
+## Bringing the Experience to the Web
 
-## Prototypen van immersive ervaring
+Brian addressed the challenge of bringing the immersive experience to the web. Unity was used to indicate user movement paths in VR. Ready Player Me, a third-party tool, allowed the creation of 3D characters based on user photos, which were then integrated into the 3D environment. Desktop and VR users could interact and communicate within the same environment.
 
-- Het digitale product moet aansluiten opde huidige collectie van het Stedelijk museum
- Het digitale product moet een boodschap communiceren met de gebruikers
- -Het moet een multiplayer ervaring zijn
- Gebruikers moeten communiceren
- Toegankelijk voor grote groep bezoekers
- 
-Starten met schetsen van plattegrond op een whiteboard (je kunt niet zo maar schermen gaan schetsen zoals bij interfaces want 3d)
-maken van fysieke prototypes van karton (brown boxing)
+### Demo and Technical Aspects
 
-brown boxing interactieve manier om een immersive ervaring tot leven te brengen. Simpele tools zoals karton en papier om je omgeving te bouwen. Zo snel mogelijk tot een prototype komen
+During the demo of the Social VR experience he created, Brian showcased a simple plane with pills on it, with one user in desktop mode and another in VR mode. The VR user utilized teleportation for movement. 
 
-hoe krijg je hier een digitale versie hiervan? lastig in figma of sketch, dus blender gebruikt als volgende stap
+Brian explained that the entire experience was built using HTML canvas elements for graphics rendering. WebGL and Three.js were utilized to create the 3D scene, while WebXR facilitated the connection with VR headsets and also supported augmented reality (AR). Brian mentioned the use of websockets for multiplayer functionality and highlighted WebRTC as an alternative for establishing connections between clients, similar to how Google Meet utilizes it.
 
-[snapshots van blender]
-
-laatste stap: hoe krijg je dit op het web?
-
-aangeven waar je mag lopen in VR met behulp van unity
-
-ready player me -> op basis van een foto een 3d character maken (3rd party) -> ingeladen in de 3d omgeving
-
-desktop en vr users kunnen samen in dezelfde omgeving met elkaar communiceren
-
-## Demo time
-
-simple plane with pills on it. one is a desktop user and the other is a VR user
-VR uses teleportation for movement
-
-alles in HTML canvas element. Tekenen van graphics. WebGL/Three.js hiermee kun je makkelijk een 3d scene maken. WebXR kan de verbinding maken met VR headset. Ondersteund ook AR
-
-maakt gebruik van websockets om multiplayer te creeerne
-
-WebRTC -> ook een manier om verbinding te leggen tussen andere clients (google meets gebruikt dit bijv). in de basis is het hetzelfde als websockets
-UDP blijft pakketjes van data sturen ongeacht of t aankomt (normaal moet je eerst wachten tot iedereen dit pakketje ontvangt, example: gamings lag)
-
+He explained that WebRTC operates on UDP, allowing continuous data packet transmission regardless of whether each packet is received instantly (as opposed to waiting for all packets to arrive, which can cause lag in gaming scenarios).

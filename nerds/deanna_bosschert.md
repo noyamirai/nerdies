@@ -1,6 +1,6 @@
 # Leveraging Knowledge for Designers' Professional Growth
 
-In the fast-paced world of design, continuous development and improvement are vital for designers to thrive. During the first weekly nerd I was able to attend, Deanna Bosschert, a graduate of CMD Amsterdam and currently working as a Software Engineer at Software Bastards and frontend developer at the Nationale Postcode Loterij, shared valuable insights on how designers can utilize their knowledge to enable better collaboration within teams.
+In the fast-paced world of design, continuous development and improvement are vital for designers to thrive. During the second weekly nerd I was able to attend, Deanna Bosschert, a graduate of CMD Amsterdam and currently working as a Software Engineer at Software Bastards and frontend developer at the Nationale Postcode Loterij, shared valuable insights on how designers can utilize their knowledge to enable better collaboration within teams.
 
 One of the primary challenges for designers is finding a balance between delivering high-quality products and keeping up with design trends. Bosschert highlighted that while design education often equips designers with up-to-date knowledge, the priority in the industry lies in timely product delivery. Designers frequently find themselves working on existing projects, often facing multiple ad hoc requests.
 

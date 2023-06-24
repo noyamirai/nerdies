@@ -1,6 +1,6 @@
 # Modal Mischief & Dialog Dilemmas
 
-Hidde de Vries, an accessibility expert with experience in front-end development, delivered an engaging talk on modal and non-modal components, as well as various accessibility considerations during the sixth weekly nerd episode. 
+Hidde de Vries, an accessibility expert with experience in front-end development, delivered an engaging talk on modal and non-modal components, as well as various accessibility considerations during the seventh weekly nerd episode. 
 
 ## Terminology
 

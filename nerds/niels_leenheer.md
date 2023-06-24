@@ -1,6 +1,6 @@
 # Project Fugu and the Future of Web Applications
 
-During the fifth weekly nerd episode by Niels Leenheer showed us the world of Project Fugu. This Chromium project aims to bridge the gap between native apps and web applications by unlocking access to features previously limited to native environments.
+During the sixth weekly nerd episode by Niels Leenheer showed us the world of Project Fugu. This Chromium project aims to bridge the gap between native apps and web applications by unlocking access to features previously limited to native environments.
 
 ## The Limitations of Web Applications
 
@@ -17,4 +17,3 @@ Niels highlighted the potential of Project Fugu to enable web applications to in
 ## The Importance of Browsers
 
 Niels emphasized that browsers play a crucial role in ensuring security and user trust. By providing a controlled environment where permissions and access are explicitly granted, browsers can offer a more secure platform for web applications compared to native apps. Niels stressed that it is essential to build trust in the browser ecosystem, as users often download and install native apps without scrutinizing their permissions, while browsers require explicit permission for each capability.
-

@@ -1,6 +1,6 @@
 # Immersive Environments on the Web: Connecting Audiences through Social VR
 
-Brian, a developer at Team Rockstars IT and recent graduate of CMD, discussed the concept of immersive environments on the web, focusing on Social VR and its applications in connecting museums and organizations with their audiences.
+Brian Bawuah, a developer at Team Rockstars IT and recent graduate of CMD, discussed the concept of immersive environments on the web, focusing on Social VR and its applications in connecting museums and organizations with their audiences.
 
 ## Background and Social VR
 

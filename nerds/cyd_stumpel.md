@@ -1,6 +1,6 @@
 # Creating Accessible and Award-Winning Websites
 
-During the third weekly nerd episode Cyd Stumpel, a freelance creative developer, shared valuable insights into the world of web development and accessibility
+During the fourth weekly nerd episode Cyd Stumpel, a freelance creative developer, shared valuable insights into the world of web development and accessibility
 
 ## Cyd's Background and Journey
 

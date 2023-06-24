@@ -1,6 +1,6 @@
 # Frontend Setup in Production
 
-During the ninth weekly nerd episode, Chanel, a frontend developer at Triple, shared insights into the frontend setup in production at Triple.
+During the tenth(!) weekly nerd episode, Chanel Mepschen, a frontend developer at Triple, shared insights into the frontend setup in production at Triple.
 
 ## Background and Triple Clients
 Chanel, a CMD graduate in 2018, expressed her love for games, board games, sports, and watching series. She works at Triple and mentioned some of the clients they collaborate with, including Ajax, Max Verstappen, Citizen M, NLZIET, Heineken, and more.

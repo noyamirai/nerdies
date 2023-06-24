@@ -1,6 +1,6 @@
 # 3D & Three.js: Insights into WebGL and 3D Development
 
-Servin, a full-stack developer and lead of 3D development at Level30Wizards, shared valuable insights on 3D development and the utilization of Three.js during the seventh weekly nerd episode.
+Servin Nissen, a full-stack developer and lead of 3D development at Level30Wizards, shared valuable insights on 3D development and the utilization of Three.js during the eight weekly nerd episode.
 
 ## WebGL and Graphics Intensive Rendering
 

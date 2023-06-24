@@ -1,6 +1,6 @@
 # Adapting to Reality: Embracing User Diversity in Web Design
 
-During the fourth weekly nerd episode a captivating talk titled "Adapting to Reality," Aaron Gustafson, all the way from Seattle and Washington DC, shared his valuable insights on the evolution of web design and the importance of adapting to the diverse needs of users.
+During the fifth weekly nerd episode a captivating talk titled "Adapting to Reality," Aaron Gustafson, all the way from Seattle and Washington DC, shared his valuable insights on the evolution of web design and the importance of adapting to the diverse needs of users.
 
 ## The Evolution of Screen Sizes
 

@@ -2,7 +2,7 @@
 
 During the minor several weekly nerds were hosted to provide us with insights and knowledge regarding web development and design (weekly nerd talks!). In this repository you will find my documentation of all the weekly nerds I attended.
 
-## Navigation
+## Nerd talks
 1. Susan Lau - [Exploring Campspace: A Digital Solution for Camping Enthusiasts](/nerds/susan_lau.md)
 2. Deanna Bosschert - [Leveraging Knowledge for Designers' Professional Growth](/nerds/deanna_bosschert.md)
 3. Chazz Mannering - [Chazz Mannering's Journey at Clever Franke](/nerds/chazz_mannering.md)
@@ -13,7 +13,11 @@ During the minor several weekly nerds were hosted to provide us with insights an
 8. Servin Nissen - [3D & Three.js: Insights into WebGL and 3D Development](/nerds/servin_nissen.md)
 9. Brian Bawuah - [Immersive Environments on the Web: Connecting Audiences through Social VR](/nerds/brian_bawuah.md)
 10. Chanel Mepschen - [Frontend Setup in Production](/nerds/chanel_mepschen.md)
-10. PRE-CSS Day - [PRE-CSS Day: Bringing Back the Spirit of the Old Web and Keeping CSS Weird](/pre_css-day.md)
+11. PRE-CSS Day - [PRE-CSS Day: Bringing Back the Spirit of the Old Web and Keeping CSS Weird](/pre_css-day.md)
+
+## Nerd articles
+1. NXT Museum - [Exploring the Future of Art at NXT Museum](/articles/nxt-museum.md)
+2. Data Sanitization - [Ensuring Clean and Secure Data in Node.js with Express](/articles/sanitization.md)
 
 <!-- TODO -->
 <!-- Drie keer schrijf je een uitgebreid artikel over een relevant onderwerp. 
@@ -21,7 +25,6 @@ Bijvoorbeeld een eigen onderzoek naar een techniek of een (technische) analyse v
 [Lees hier meer over het schrijven van artikelen](#5-artikelen) en lees een paar voorbeelden van vorige jaren. -->
 
 <!-- 
-### Weekly Nerd artikelen
 
 Drie keer schrijf je een uitgebreid artikel over een relevant web design en development onderwerp. 
 Bijvoorbeeld een eigen onderzoek naar een techniek of een (technische) analyse van een website die in een Weekly Nerd is behandeld. 
@@ -29,7 +32,6 @@ Zorg voor juiste verwijzingen, bronvermelding en goede leesbare teksten.
 Engels wordt aangeraden.
 
 Je blog met de verslagen en artikelen moet voor de laatste week van de Meesterproef ingeleverd zijn.  
-Deadline zondag 19 juni 2022 voor 23:59.
 
 Tip: Schrijf elke lesblok een artikel en lever dit in, dan hoef je niet alle artikelen aan het eind van de minor te schrijven en krijg je tussentijds feedback op je niveau en schrijfstijl. 
 

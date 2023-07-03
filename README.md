@@ -18,6 +18,8 @@ During the minor several weekly nerds were hosted to provide us with insights an
 ## Nerd articles
 1. NXT Museum - [Exploring the Future of Art at NXT Museum](/articles/nxt-museum.md)
 2. Data Sanitization - [Ensuring Clean and Secure Data in Node.js with Express](/articles/sanitization.md)
+3. Overly Specific CSS - [The Pitfalls of Writing Overly Specific CSS](/articles/css.md)
+4. React Native - [](/articles/react-native.md)
 
 <!-- TODO -->
 <!-- Drie keer schrijf je een uitgebreid artikel over een relevant onderwerp. 

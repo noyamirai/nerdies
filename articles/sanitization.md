@@ -105,3 +105,9 @@ app.post('/register', (req, res) => {
     // Process the sanitized username
 });
 ```
+
+## Resources
+
+- [Express](https://expressjs.com/)
+- [Express validator](https://express-validator.github.io/docs)
+- [This stackoverflow post](https://stackoverflow.com/questions/46718772/how-i-can-sanitize-my-input-values-in-node-js)

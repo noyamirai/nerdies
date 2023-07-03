@@ -19,31 +19,6 @@ During the minor several weekly nerds were hosted to provide us with insights an
 1. NXT Museum - [Exploring the Future of Art at NXT Museum](/articles/nxt-museum.md)
 2. Data Sanitization - [Ensuring Clean and Secure Data in Node.js with Express](/articles/sanitization.md)
 3. Overly Specific CSS - [The Pitfalls of Writing Overly Specific CSS](/articles/css.md)
-4. React Native - [](/articles/react-native.md)
-
-<!-- TODO -->
-<!-- Drie keer schrijf je een uitgebreid artikel over een relevant onderwerp. 
-Bijvoorbeeld een eigen onderzoek naar een techniek of een (technische) analyse van een website die in een Weekly Nerd is behandeld. 
-[Lees hier meer over het schrijven van artikelen](#5-artikelen) en lees een paar voorbeelden van vorige jaren. -->
-
-<!-- 
-
-Drie keer schrijf je een uitgebreid artikel over een relevant web design en development onderwerp. 
-Bijvoorbeeld een eigen onderzoek naar een techniek of een (technische) analyse van een website die in een Weekly Nerd is behandeld. 
-Zorg voor juiste verwijzingen, bronvermelding en goede leesbare teksten. 
-Engels wordt aangeraden.
-
-Je blog met de verslagen en artikelen moet voor de laatste week van de Meesterproef ingeleverd zijn.  
-
-Tip: Schrijf elke lesblok een artikel en lever dit in, dan hoef je niet alle artikelen aan het eind van de minor te schrijven en krijg je tussentijds feedback op je niveau en schrijfstijl. 
-
-
-### Voorbeelden van artikelen van voorgaande jaren
-
-* https://medium.com/@vincentkempers_/functional-light-programming-helped-me-a-lot-99856a9ac0ff
-* https://codepen.io/servinnissen/post/plan-then-code
-* https://github.com/Jamerrone/weekly-nerd-blog/blob/master/articles/article-3.md
-* https://github.com/muise001/Weekly_Nerd#bruce-lawson---w3c-over-webstandards
-* https://medium.com/@vincentkempers_/my-experience-at-nlhtml5-x-cssday-df855997a191 -->
+4. React Native - [An Introduction to React Native for Beginners](/articles/react-native.md)
 
 

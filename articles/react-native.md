@@ -47,6 +47,29 @@ In the example above, the `count` variable represents the state, and `setCount` 
 - **useRef:** It provides a way to reference a mutable value that persists across renders.
 - **useReducer:** It is an alternative to useState when managing more complex state logic.
 
+The code example above would look something like this in React Native:
+
+```js
+import React, {useState} from 'react';
+import {Button, Text, View} from 'react-native';
+
+function Counter() {
+  const [count, setCount] = useState(0); // Initial value is 0
+
+  return (
+    <View>
+      <Text>Count: {count}</Text>
+      <Button
+        onClick={() => {
+          setCount(count + 1)
+        }}
+        title='Increment'
+      />
+    </View>
+  );
+}
+```
+
 And that's it for my React introduction. Obviously there is A LOT more to it, but at this point, you should just try it out for yourself if you find it interesting!
 
 ## Resources
